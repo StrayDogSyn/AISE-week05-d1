@@ -9,6 +9,29 @@ from typing import Union, Callable, Dict
 from dataclasses import dataclass
 
 
+# Simple calculator functions for basic operations
+def add(a: float, b: float) -> float:
+    """Add two numbers"""
+    return a + b
+
+
+def subtract(a: float, b: float) -> float:
+    """Subtract b from a"""
+    return a - b
+
+
+def multiply(a: float, b: float) -> float:
+    """Multiply two numbers"""
+    return a * b
+
+
+def divide(a: float, b: float) -> float:
+    """Divide a by b"""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+
+
 @dataclass
 class CalculatorError(Exception):
     """Custom exception for calculator errors"""
@@ -78,4 +101,7 @@ class Calculator:
         """
         Convert infix notation (2 + 3) to postfix/RPN (2 3 +).
         
-        Why? Postfix
+        Why? Postfix notation is easier to evaluate without parentheses.
+        """
+        # Implementation would go here
+        pass
