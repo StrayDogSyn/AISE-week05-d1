@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🧮 Advanced Calculator
 
 [![Python Application](https://github.com/StrayDogSyn/AISE-week05-d1/actions/workflows/python-app.yml/badge.svg)](https://github.com/StrayDogSyn/AISE-week05-d1/actions/workflows/python-app.yml)
@@ -9,11 +7,9 @@
 [![License](https://img.shields.io/badge/license-MIT-purple.svg)](LICENSE)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF.svg)](https://github.com/features/actions)
 
-*A professional-grade calculator application with CI/CD automation*
+> A professional-grade calculator application with CI/CD automation
 
 [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Testing](#-testing) • [CI/CD](#-cicd-pipeline)
-
-</div>
 
 ---
 
@@ -30,6 +26,7 @@ This repository demonstrates professional software engineering practices through
 ## ✨ Features
 
 ### Core Functionality
+
 - ✅ Basic arithmetic operations (add, subtract, multiply, divide)
 - ✅ Advanced calculator class with operator precedence
 - ✅ Expression parsing and tokenization
@@ -38,6 +35,7 @@ This repository demonstrates professional software engineering practices through
 - ✅ Extensible architecture for custom functions and operators
 
 ### Engineering Excellence
+
 - 🔄 **Automated CI/CD Pipeline**: GitHub Actions workflow
 - 🧪 **Comprehensive Testing**: Unit tests with pytest
 - 📊 **Code Quality Checks**: Flake8 linting
@@ -48,23 +46,27 @@ This repository demonstrates professional software engineering practices through
 ## 🚀 Installation
 
 ### Prerequisites
+
 - Python 3.10 or higher
 - pip (Python package manager)
 
 ### Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/StrayDogSyn/AISE-week05-d1.git
    cd AISE-week05-d1
    ```
 
 2. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
-   
+
    Or install manually:
+
    ```bash
    pip install pytest flake8
    ```
@@ -126,7 +128,7 @@ pytest app/test_calc_pass.py --cov=app --cov-report=html
 
 ### Expected Output
 
-```
+```text
 ================================= test session starts =================================
 platform win32 -- Python 3.10+, pytest-8.4.2, pluggy-1.6.0
 collected 3 items
@@ -163,7 +165,7 @@ Check the current build status: [![Build Status](https://github.com/StrayDogSyn/
 
 ## 📁 Project Structure
 
-```
+```text
 AISE-week05-d1/
 ├── .github/
 │   └── workflows/
@@ -220,6 +222,7 @@ Contributions are welcome! Please follow these steps:
 5. Open a Pull Request
 
 All contributions must:
+
 - Pass the CI/CD pipeline
 - Include appropriate tests
 - Follow PEP 8 style guidelines
@@ -231,9 +234,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🎓 Course Information
 
-**Course**: AISE (AI Software Engineering)  
-**Week**: 5 - Day 1  
-**Institution**: JTC (Job Training Center)  
+**Course**: AISE (AI Software Engineering)\
+**Week**: 5 - Day 1\
+**Institution**: JTC (Job Training Center)\
 **Focus**: CI/CD Workflows and Automated Testing
 
 ## 🙏 Acknowledgments
@@ -245,10 +248,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-
-**Built with ❤️ for learning and excellence**
+Built with ❤️ for learning and excellence
 
 [⬆ Back to Top](#-advanced-calculator)
-
-</div>
