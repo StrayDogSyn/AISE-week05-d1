@@ -36,4 +36,5 @@ jobs:
         flake8 app --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
+        export PYTHONPATH="${PYTHONPATH}:${GITHUB_WORKSPACE}"
         pytest app/test_calc_pass.py -v
